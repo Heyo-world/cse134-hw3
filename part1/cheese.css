@@ -12,7 +12,7 @@ h2{
 }
 
 body{
-  font-family: cursive;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: darkmagenta;
   line-height: normal;
 }
@@ -45,6 +45,6 @@ dl{
   color:deeppink;
 }
 dl{
-  color:darkslateblue;
+  color:#00631e;
 }
 /* Second rule wins because if a later rule has the same specificity and importance, it overrides the earlier rule by source order*/
