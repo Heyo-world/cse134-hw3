@@ -12,8 +12,8 @@ h2{
 }
 
 body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: darkslategray;
+  font-family: cursive;
+  color: darkmagenta;
   line-height: normal;
 }
 
@@ -26,7 +26,7 @@ body{
 }
 
 blockquote{
-  border: 2px solid gray;
+  border: 2px solid midnightblue;
   margin: 35px 50px;
   padding: 25px 50px;
 }
@@ -37,7 +37,7 @@ a:hover{
 }
 
 a:focus, input:focus, button:focus {
-  background-color: orange;
+  background-color: lemonchiffon;
 }
 
 /*Cascade in action*/
