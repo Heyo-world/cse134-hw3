@@ -12,8 +12,8 @@ h2{
 }
 
 body{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: darkmagenta;
+  font-family:'Courier New', Courier, monospace ;
+  color: midnightblue;
   line-height: normal;
 }
 
@@ -26,7 +26,7 @@ body{
 }
 
 blockquote{
-  border: 2px solid midnightblue;
+  border: 2px solid darkmagenta;
   margin: 35px 50px;
   padding: 25px 50px;
 }
