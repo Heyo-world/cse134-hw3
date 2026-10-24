@@ -1,3 +1,8 @@
+:root{
+  max-width: 750px;
+  margin: auto;
+}
+
 h1{
   font-size: 2.5rem;
 }
@@ -19,3 +24,27 @@ body{
 #warning{
   background-color: lightcoral;
 }
+
+blockquote{
+  border: 2px solid gray;
+  margin: 35px 50px;
+  padding: 25px 50px;
+}
+
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+a:focus, input:focus, button:focus {
+  background-color: orange;
+}
+
+/*Cascade in action*/
+dl{
+  color:deeppink;
+}
+dl{
+  color:darkslateblue;
+}
+/* Second rule wins because if a later rule has the same specificity and importance, it overrides the earlier rule by source order*/
