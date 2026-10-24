@@ -1,3 +1,21 @@
+h1{
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
 body{
-  font-family:
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkslategray;
+  line-height: normal;
+}
+
+.latin{
+  font-style: italic;
+}
+
+#warning{
+  background-color: lightcoral;
 }
