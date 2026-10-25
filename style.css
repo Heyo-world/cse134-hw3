@@ -3,7 +3,7 @@
     --card-color: #2e5578;
     --accent-color: #ffa182;
     --font-color: white;
-    --link-color: #576aff;
+    --link-color: #778bfc;
     --font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --max-width: 65rem;
 }
@@ -60,7 +60,7 @@ project-card{
   gap: 1.5rem;
   padding: 0.5rem;
   background-color: var(--card-color);
-  border-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 contact-grid{
