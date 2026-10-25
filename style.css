@@ -3,6 +3,7 @@
     --card-color: #2e5578;
     --accent-color: #ffa182;
     --font-color: white;
+    --link-color: #576aff;
     --font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --max-width: 65rem;
 }
@@ -58,6 +59,8 @@ project-card{
   flex-direction: column;
   gap: 1.5rem;
   padding: 0.5rem;
+  background-color: var(--card-color);
+  border-color: var(--accent-color);
 }
 
 contact-grid{
@@ -71,7 +74,7 @@ contact-grid{
 /*Attribute selector*/
 /*Targets links pointing to external domains */
 a[target="_blank"] {
-  color: #4258ff;
+  color: var(--link-color);
   font-style: italic;
 }
 /*Combinator 1*/
@@ -97,7 +100,7 @@ a:focus, input:focus, textarea:focus, button:focus, select:focus {
   outline-offset: 2px;
 }
 
-footer + p {
+footer{
   text-align: right;
   padding: 0.5rem;
   font: var(--font-stack);
