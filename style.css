@@ -35,7 +35,7 @@ h3 {
 header {
   background-color: var(--card-color);
   border: 1px solid var(--accent-color);
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 8px;
   margin-bottom: 2rem;
 }
@@ -64,12 +64,14 @@ contact-grid{
   display: grid;
   grid: 150px / auto auto auto;
   grid-gap: 10px;
+  margin-bottom: 20px;
   padding: 10px;
 }
 
 /*Attribute selector*/
 /*Targets links pointing to external domains */
 a[target="_blank"] {
+  color: #4258ff;
   font-style: italic;
 }
 /*Combinator 1*/
