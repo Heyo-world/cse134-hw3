@@ -73,10 +73,14 @@ contact-grid{
 
 fieldset{
     min-width: 0; 
-    max-width: 40rem; 
+    max-width: 60rem; 
     width: 100%;
+    margin: 15px;
 }
 
+a{
+    color: #7d7ffa;
+}
 /*Attribute selector*/
 /*Targets links pointing to external domains */
 a[target="_blank"] {
@@ -93,7 +97,7 @@ contact-grid > div {
 /*Combinator 2*/
 /*Targets the project details in the index.html's Featured Projects articles*/
 article > h3 > p {
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 a:hover, button:hover {
