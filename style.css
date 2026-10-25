@@ -77,7 +77,7 @@ fieldset{
     width: 100%;
     margin: 15px;
 }
-.cmessage{
+textarea{
     min-width: 0; 
     max-width: 50rem; 
     width: 100%;
@@ -99,7 +99,7 @@ contact-grid > div {
 /*Combinator 2*/
 /*Targets the project details in the index.html's Featured Projects articles*/
 article > p {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 article > a {
