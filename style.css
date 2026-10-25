@@ -97,10 +97,10 @@ a:focus, input:focus, textarea:focus, button:focus, select:focus {
   outline-offset: 2px;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
+footer + p {
+  text-align: right;
+  padding: 0.5rem;
   font: var(--font-stack);
   color: var(--font-color);
-  border-top: 2px solid var(--accent-color);
+  border-top: 2px solid var(--accent-color);  
 }
