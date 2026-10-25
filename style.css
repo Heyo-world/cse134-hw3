@@ -78,9 +78,6 @@ fieldset{
     margin: 15px;
 }
 
-a{
-    color: #7d7ffa;
-}
 /*Attribute selector*/
 /*Targets links pointing to external domains */
 a[target="_blank"] {
@@ -96,8 +93,12 @@ contact-grid > div {
 
 /*Combinator 2*/
 /*Targets the project details in the index.html's Featured Projects articles*/
-article > h3 > p {
+article > p {
   padding-left: 10px;
+}
+
+article > a {
+    color: #7d7ffa;
 }
 
 a:hover, button:hover {
