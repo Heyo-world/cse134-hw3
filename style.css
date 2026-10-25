@@ -67,8 +67,14 @@ contact-grid{
   display: grid;
   grid: 150px / auto auto auto;
   grid-gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding: 10px;
+}
+
+fieldset{
+    min-width: 0; 
+    max-width: 40rem; 
+    width: 100%;
 }
 
 /*Attribute selector*/
