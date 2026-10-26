@@ -79,7 +79,7 @@ fieldset{
 }
 textarea{
     min-width: 0; 
-    max-width: 50rem; 
+    max-width: 40rem; 
     width: 100%;
 }
 
@@ -102,7 +102,7 @@ article > p {
   padding-left: 20px;
 }
 
-article > a {
+h3 > a {
     color: #7d7ffa;
 }
 
