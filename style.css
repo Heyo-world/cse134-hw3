@@ -4,7 +4,8 @@
     --accent-color: #ffa182;
     --font-color: white;
     --link-color: #568bfc;
-    --font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-stack: Gill Sans, sans-serif
+    /*--font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
     --max-width: 65rem;
 }
 
