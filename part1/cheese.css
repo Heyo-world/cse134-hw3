@@ -12,6 +12,9 @@ body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: midnightblue;
   line-height: normal;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 
 h1{
