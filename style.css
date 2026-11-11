@@ -62,7 +62,7 @@ project-card{
   padding: 0.5rem;
   background-color: var(--card-color);
   border: 1px solid var(--accent-color);
-  margin: 1rem 0;
+  margin: 4rem;
 }
 
 /* Keyword color helper classes replacing inline styles */
